@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">SmartOrder</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_create_new_order_list">CreateNewOrderList</string>
+    <string name="title_activity_submit_order">SubmitOrderList</string>
+    <string name="title_activity_orders_list">OrdersList</string>
+    <string name="update_alert_dialog">Update Products?</string>
+    <string name="update_alert_dialog_yes">Yes</string>
+    <string name="update_alert_dialog_no">No</string>
+    <string name="CreateOrder">Νέα Παραγγελία</string>
+    <string name="Orders">Παραγγελίες</string>
+    <string name="Sugar"><u>Ποσότητα Ζάχαρης</u></string>
+    <string name="Black">Σκέτο</string>
+    <string name="Medium">Μέτριο</string>
+    <string name="Sweet">Γλυκό</string>
+    <string name="Size"><u>Μέγεθος</u></string>
+    <string name="Small_size">Μικρό</string>
+    <string name="Medium_size">Μεσσαίο</string>
+    <string name="Big_size">Μεγάλο</string>
+    <string name="Misc"><u>Διάφορα</u></string>
+    <string name="Milk">Γάλα</string>
+    <string name="Honey">Μέλι</string>
+    <string name="Chocolate">Σοκολάτα</string>
+    <string name="Cinnamon">Κανέλλα</string>
+    <string name="Sugar_Type"><u>Είδος Ζάχαρης</u></string>
+    <string name="Brown_Sugar">Μάυρη</string>
+    <string name="White_Sugar">Άσπρη</string>
+    <string name="Other_Sugar_Type">Άλλη</string>
+    <string name="OK">ΟΚ</string>
+    <string name="Cancel">Ακύρωση</string>
+    <string name="Table_Choice">Επιλογή Τραπεζιού</string>
+    <string name="SubmitOrder">Υποβολή Παραγγελίας</string>
+    <string name="content">image</string>
+    <string name="table"><u>Τραπέζι</u></string>
+    <string name="Settings">Ρυθμίσεις</string>
+    <string name="order_summary">Σύνοψη Παραγγελίας</string>
+    <string name="gcm_send_message">Token retrieved and sent to server! You can now use gcmsender to
+        send downstream messages to this app.</string>
+    <string name="registering_message">Generating InstanceID token...</string>
+    <string name="token_error_message">An error occurred while either fetching the InstanceID token,
+        sending the fetched token to the server or subscribing to the PubSub topic. Please try
+        running the sample again.</string>
+    <string name="title_activity_settings">Ρυθμίσεις</string>
+    <string name="delete">Διαγραφή</string>
+    <string name="add">Προσθήκη</string>
+    <string name="Options">Περισσότερες Επιλογές</string>
+    <string name="sugarWord">Ζάχαρη</string>
+    <string name="product">Προϊόν</string>
+    <string name="category">Κατηγορία</string>
+    <string name="new_product">Προσθήκη Προϊόντος</string>
+    <string name="old_product">Διαγραφή Προϊόντος</string>
+    <string name="category_selection">Επιλογή Κατηγορίας</string>
+    <string name="product_selection">Επιλογή Προϊόντος</string>
+    <string name="choose_category">[Επέλεξε Κατηγορία]</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="client">Σερβιτόρος</string>
+    <string name="server">Μπαρ</string>
+    <string name="title_activity_server">Server</string>
+    <string name="title_set_token">Επιλογή κλειδιού</string>
+    <string name="setToken">Επιλογή κλειδιού</string>
+    <string name="setTokenHere">Προσθέστε το νέο κλειδί εδώ</string>
+    <string name="updateToken">Ενημέρωση </string>
+    <string name="exist_key">Υπάρχων Κλειδί :</string>
+    <string name="title_create_new_order">Νέα Παραγγελία </string>
+    <string name="title_submit_order">Υποβολή Παραγγελίας </string>
+    <string name="title_list_orders">Παραγγελίες </string>
+
+
+
+
+</resources>

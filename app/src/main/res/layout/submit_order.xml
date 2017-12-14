@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/main_back"
+    android:scrollbars="vertical"
+    android:textColor="@color/text">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/table"
+        android:padding="10sp"
+        android:textSize="20sp"
+        android:textColor="@color/text"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1sp"
+        android:background="@color/text"
+        android:layout_margin="1sp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/suborder_recycler_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit_order"
+        android:text="@string/SubmitOrder"
+        android:layout_gravity="center_horizontal"
+        android:padding="10sp"
+        android:layout_marginTop="20sp"
+        android:background="@color/button"
+        android:textColor="@color/text"/>
+
+</LinearLayout>

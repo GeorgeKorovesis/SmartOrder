@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="gray">#DADADA</color>
+    <color name="main_back">#4D5052</color>
+    <color name="button">#626769</color>
+    <color name="list_item">#575b5c</color>
+    <color name="text">#c7c7c7</color>
+    <color name="border">#757575</color>
+    <color name="red">#ffffff</color>
+    <color name="green">#00ff00</color>
+
+
+</resources>

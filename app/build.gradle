@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.3'
+
+    defaultConfig {
+        applicationId "com.example.george.smartorder"
+        minSdkVersion 18
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        pickFirst 'META-INF/NOTICE.txt'
+        pickFirst 'META-INF/DEPENDENCIES.txt'
+        pickFirst 'META-INF/LICENSE.txt'
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+    }
+
+    useLibrary 'org.apache.http.legacy'
+
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //compile "com.google.android.gms:play-services-gcm:8.3.0"
+    //compile files('libs/libproject/google-play-services_lib/libs/google-play-services.jar')
+    compile 'com.google.android.gms:play-services-gcm:9.0.0'
+    compile 'com.firebase:firebase-client-android:2.3.1'
+    compile 'com.android.support:appcompat-v7:23.1.0'
+    compile 'com.android.support:recyclerview-v7:23.2.1'
+}
+
+apply plugin: 'com.google.gms.google-services'
